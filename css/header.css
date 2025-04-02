@@ -1,7 +1,7 @@
 .header{
   /* padding: 24px 0; */
   /* border-bottom: 2px solid var(--dark-30); */
-  background: radial-gradient(circle  closest-side at 75% 50%, #1c1525, #0B0B0B);
+  /* background: radial-gradient(circle  closest-side at 75% 50%, #1c1525, #0B0B0B); */
 }
 .header__wrapper{
   display: flex;
@@ -59,7 +59,7 @@
   right: -100px;
 }
 .hero__paragraph{
-  color: white;
+  color: var(--white);
   font-size: 24px;
 }
 .hero__title{
@@ -69,17 +69,17 @@
 }
 .btn{
   margin-top: 48px;
-  width: 146px;
-  height: 38px;
+  width: fit-content;
+  padding: 10px 40px;
   border-radius: 4px;
   background-color: var(--brand-color);
   color: var(--dark-10);
   font-size: 16px;
 }
 .hero__img__wrapper{
-  /* background: radial-gradient( circle at 50% 50%, #1c1525, #0B0B0B); */
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+    background: radial-gradient(circle  closest-side at 50% 50%, #1c1525, #0B0B0B);
 }
