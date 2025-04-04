@@ -75,6 +75,13 @@
   background-color: var(--brand-color);
   color: var(--dark-10);
   font-size: 16px;
+  border: none;
+}
+.btn--transparent{
+  color: var(--brand-color);
+  background-color: transparent;
+  border: 2px solid var(--brand-color);
+  border-radius: 4px;
 }
 .hero__img__wrapper{
   width: 100%;
