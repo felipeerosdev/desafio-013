@@ -1,0 +1,93 @@
+.header{
+  /* padding: 24px 0; */
+  /* border-bottom: 2px solid var(--dark-30); */
+  /* background: radial-gradient(circle  closest-side at 75% 50%, #1c1525, #0B0B0B); */
+}
+.header__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+  border-bottom: 2px solid var(--dark-30);
+}
+.header__title{
+  font-size: 24px;
+  color: var(--brand-color);
+}
+.nav__list{
+  display: flex;
+  gap: 56px;
+  list-style-type: none;
+}
+.list__item{
+  color: var(--white);
+  text-decoration: none;
+  font-size: 18px;
+}
+.hero{
+  display: flex;
+  /* justify-content: space-between; */
+  /* background: radial-gradient( circle at 50% 50%, #1c1525, #0B0B0B); */
+}
+.hero__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 100px 0 236px;
+  width: 100%;
+  position: relative;
+}
+.hero__content::before{
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-image: url(/assets/image/arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  right: 120px;
+  transform: rotate(220deg);
+}
+.hero__content::after{
+  content: "Apaixonado por café";
+  color: var(--brand-color);
+  font-family: "Preahvihear", sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 2px;
+  right: -100px;
+}
+.hero__paragraph{
+  color: var(--white);
+  font-size: 24px;
+}
+.hero__title{
+  font-size: 48px;
+  color: var(--brand-color);
+  font-weight: 400;
+}
+.btn{
+  margin-top: 48px;
+  width: fit-content;
+  padding: 10px 40px;
+  border-radius: 4px;
+  background-color: var(--brand-color);
+  color: var(--dark-10);
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.btn--transparent{
+  color: var(--brand-color);
+  background-color: transparent;
+  border: 2px solid var(--brand-color);
+  border-radius: 4px;
+}
+.hero__img__wrapper{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    background: radial-gradient(circle  closest-side at 50% 50%, #1c1525, #0B0B0B);
+}

@@ -10,8 +10,160 @@
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/root.css">
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/footer.css">
 </head>
 <body>
-  
+    <header class="header">
+      <section class="header__wrapper wrapper">
+        <div>
+          <h1 class="header__title">Anderson Felipe</h1>
+        </div>
+        <nav class="header__nav">
+          <ul class="nav__list">
+            <li><a href="#" class="list__item">Início</a></li>
+            <li><a href="#" class="list__item">Sobre mim</a></li>
+            <li><a href="#" class="list__item">Experiências</a></li>
+            <li><a href="#" class="list__item">Projetos</a></li>
+          </ul>
+        </nav>
+      </section>
+      
+      <section class="hero wrapper">
+        <div class="hero__content">
+          <p class="hero__paragraph">Olá, eu sou</p>
+          <h2 class="hero__title">Anderson Felipe</h2>
+          <p class="hero__paragraph">Desenvolvedor Frontend & UI Designer.</p>
+          <button class="btn">Linkedin</button>
+        </div>
+        <div class="hero__img__wrapper">
+          <img src="/assets/image/me.png" alt="me" class="hero__img">
+        </div>
+      </section>
+    </header>
+    <main class="main">
+      <section class="aboutMe">
+        
+        <div class="wrapper">
+          <h3 class="aboutMe__title">Sobre mim</h3>
+          <p class="aboutMe__paragraph">Teresina, Brasil</p>
+          <p class="aboutMe__paragraph">Meu nome é Anderson Felipe, ou “felipe” (é como me chamam agora) sou o criador do eFront, um material de ensino de frontend pela internet. Atualmente sou freelancer como Frontend Developer e UI Designer. Desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, animações, responsividade e SEO.</p>
+          <div class="aboutMe__img__wrapper">
+            <img src="/assets/image/twitter.svg" alt="logo-twitter" class="aboutMe__img">
+            <img src="/assets/image/twitch.svg" alt="logo-twitch" class="aboutMe__img">
+            <img src="/assets/image/youtube.svg" alt="logo-youtube" class="aboutMe__img">
+            <img src="/assets/image/figma.svg" alt="logo-figma" class="aboutMe__img">
+            <img src="/assets/image/codepen.svg" alt="logo-codepen" class="aboutMe__img">
+            <img src="/assets/image/facebook.svg" alt="logo-facebook" class="aboutMe__img">
+          </div>
+          <button class="btn">Baixar currículo</button>
+        </div>
+      </section>
+      
+      <section class="experiences wrapper">
+        <h3 class="experiences__title">Experiências</h3>
+        <div class="experiences__wrapper">
+          <div class="experiences__menu__wrapper">
+            
+            <label class="experiences__menu__label">
+              <input type="radio" name="experiences__menu" class="experiences__menu__input" checked><span class="experiences__menu__label__span">Digital House</span>
+            </label>
+            
+            <label class="experiences__menu__label">
+              <input type="radio" name="experiences__menu" class="experiences__menu__input"><span class="experiences__menu__label__span">Código Fonte TV</span>
+            </label>
+            
+            <label class="experiences__menu__label">
+              <input type="radio" name="experiences__menu" class="experiences__menu__input"><span class="experiences__menu__label__span">Zuplae</span>
+            </label>
+            
+            <label class="experiences__menu__label">
+              <input type="radio" name="experiences__menu" class="experiences__menu__input"><span class="experiences__menu__label__span">ContWeb</span>
+            </label>
+            
+            <label class="experiences__menu__label">
+              <input type="radio" name="experiences__menu" class="experiences__menu__input"><span class="experiences__menu__label__span">CodeLab</span>
+            </label>
+            
+          </div>
+          <div class="experiences__content">
+            
+            <div class="experiences__top">
+              <h4 class="experiences__subtitle">Professor conteudista em Frontend</h4>
+              <p class="experiences__paragraph__top">Nov 2021 - Atual</p>
+            </div>
+            <p class="experiences__paragraph--color">Digital House</p>
+            <p class="experiences__paragraph">Trabalhei como instrutor conteudista em frontend na Digital House, o trabalho consistia em criar conteúdos para as aulas de especialização frontend. Alguns temas dos conteúdos realizados foram: React, Redux, TypeScript, Testes, GraphQL, Next.js, MUI, React Hook Form e styled-components.</p>
+          </div>
+          
+        </div>
+      </section>
+      
+      <section class="projects">
+        <div class="wrapper">
+          <h3 class="projects__title">Projetos</h3>
+          <div class="projects__cards__wrapper">
+            
+            <div class="projects__card">
+              <div class="card__img">
+                <p class="cardsImg__paragraph">Imagem projeto</p>
+              </div>
+              <h4 class="project__name">Nome do projeto</h4>
+              <p class="project__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit interdum odio eu varius.</p>
+              <p class="project__paragraph--color">Tecnologias usadas no projetos</p>
+              <div class="wrapper__buttons__card">
+                <button class="btn">Acessar o projeto</button>
+                <button class="btn btn--transparent">Acessar o portifolio</button>
+              </div>
+            </div>
+            
+            <div class="projects__card">
+              <div class="card__img">
+                <p class="cardsImg__paragraph">Imagem projeto</p>
+              </div>
+              <h4 class="project__name">Nome do projeto</h4>
+              <p class="project__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit interdum odio eu varius.</p>
+              <p class="project__paragraph--color">Tecnologias usadas no projetos</p>
+              <div class="wrapper__buttons__card">
+                <button class="btn">Acessar o projeto</button>
+                <button class="btn btn--transparent">Acessar o portifolio</button>
+              </div>
+            </div>
+
+            <div class="projects__card">
+              <div class="card__img">
+                <p class="cardsImg__paragraph">Imagem projeto</p>
+              </div>
+              <h4 class="project__name">Nome do projeto</h4>
+              <p class="project__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit interdum odio eu varius.</p>
+              <p class="project__paragraph--color">Tecnologias usadas no projetos</p>
+              <div class="wrapper__buttons__card">
+                <button class="btn">Acessar o projeto</button>
+                <button class="btn btn--transparent">Acessar o portifolio</button>
+              </div>
+            </div>
+
+            <div class="projects__card">
+              <div class="card__img">
+                <p class="cardsImg__paragraph">Imagem projeto</p>
+              </div>
+              <h4 class="project__name">Nome do projeto</h4>
+              <p class="project__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit interdum odio eu varius.</p>
+              <p class="project__paragraph--color">Tecnologias usadas no projetos</p>
+              <div class="wrapper__buttons__card">
+                <button class="btn">Acessar o projeto</button>
+                <button class="btn btn--transparent">Acessar o portifolio</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper wrapper">
+        <p class="footer__paragraph">@ 2022 - Iuri Silva</p>
+        <p class="footer__paragraph">Powered by <img src="/assets/image/logo.svg" alt="logo" class="footer__paragraph__img"></p>
+      </div>
+    </footer>
 </body>
 </html>

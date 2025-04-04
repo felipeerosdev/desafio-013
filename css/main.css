@@ -1,6 +1,154 @@
 body{
   font-family: "Inter",sans-serif;
+  background-color: var(--dark-10);
+  color: white;
 }
 h1,h2,h3,h4,h5,h6 {
   font-family: "Preahvihear", sans-serif;
+  
+}
+.wrapper{
+  margin: 0 auto;
+  max-width: 1216px;
+  width: 100%;
+}
+.aboutMe{
+  padding: 100px 0;
+  background-color: var(--dark-20);
+}
+.aboutMe__title{
+  font-size: 32px;
+  color: var(--brand-color);
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.aboutMe__paragraph{
+  color: var(--white);
+  font-size: 20px;
+  margin-bottom: 26px;
+}
+.aboutMe__img__wrapper{
+  display: flex;
+  gap: 40px;
+  margin: 40px 0 0 0;
+}
+.aboutMe__img{
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+.experiences{
+  padding: 100px 0;
+}
+.experiences__title{
+  color: var(--brand-color);
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+.experiences__wrapper{
+  display: flex;
+  gap: 104px;
+}
+.experiences__menu__wrapper{
+  /* border-left: 3px solid var(--dark-30); */
+  display: flex;
+  flex-direction: column;
+}
+.experiences__menu__label{
+  color: var(--white);
+  padding-left:36px;
+  position: relative;
+  border-left: 3px solid var(--dark-30);
+  width: 208px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.experiences__menu__label__span{
+  cursor: pointer;
+}
+.experiences__menu__label:has(.experiences__menu__input:checked){
+    border-left: 3px solid var(--brand-color);
+    background-color: var(--dark-30);
+    /* transition: border-color .3s ease-in-out; */
+}
+.experiences__menu__input{
+  opacity: 0;
+  position: absolute;
+  display: block;
+}
+.experiences__top{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.experiences__subtitle{
+  color: var(--white);
+  font-size: 24px;
+  font-family: "Inter",sans-serif;
+  font-weight: 500;
+}
+.experiences__paragraph__top{
+  color: var(--white);
+  font-size: 16px;
+}
+.experiences__paragraph--color{
+  color: var(--brand-color);
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+.experiences__paragraph{
+  font-size: 18px;
+  color: var(--white);
+  line-height: 1.6;
+}
+.projects{
+  background-color: var(--dark-20);
+  padding: 100px 0;
+}
+.projects__title{
+  font-size: 32px;
+  color: var(--brand-color);
+  margin-bottom: 40px;
+}
+.card__img{
+  background-color: var(--dark-10);
+  width: 592px;
+  height: 200px;
+  border-left: 4px solid var(--brand-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.cardsImg__paragraph{
+  font-family: "Preahvihear", sans-serif;
+  font-size: 24px;
+  color: var(--brand-color);
+}
+.project__name{
+  font-size: 24px;
+  margin-bottom: 32px;
+  font-family: "Inter",sans-serif;
+  font-weight: 500;
+}
+.project__paragraph{
+  font-size: 18px;
+  width: 590px;
+  margin-bottom: 24px;
+}
+.project__paragraph--color{
+  font-size: 18px;
+  color: var(--brand-color);
+  font-weight: 500;
+}
+.wrapper__buttons__card{
+  display: flex;
+  gap: 24px;
+}
+.projects__cards__wrapper{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 72px 32px;
 }

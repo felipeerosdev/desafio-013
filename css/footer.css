@@ -1,0 +1,17 @@
+.footer{
+  background-color: var(--dark-10);
+  padding: 38px 0;
+}
+.footer__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.footer__paragraph{
+  display: flex;
+  font-size: 22px;
+}
+.footer__paragraph__img{
+  display: block;
+  width: 22px;
+  height: 22px;
+}
