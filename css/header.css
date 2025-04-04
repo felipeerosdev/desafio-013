@@ -76,6 +76,7 @@
   color: var(--dark-10);
   font-size: 16px;
   border: none;
+  cursor: pointer;
 }
 .btn--transparent{
   color: var(--brand-color);
